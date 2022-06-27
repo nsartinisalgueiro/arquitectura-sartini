@@ -1,0 +1,21 @@
+Cambios de SEO:
+
+    Index
+        ° Los keywords por las palabras claves "arquitectura, construccion, interiorismo, decoracion, obra, remodelacion, casa "
+        ° Las description un breve resumen de la pagina "Somos un espacio de trabajo multiple donde albergamos distintas actividades que van desde el diseño del objeto hasta el proyecto de arquitectura pueder ser una casa o departamento hasta un edificio"
+
+    Contactos
+        ° Los keywords por las palabras claves "arquitectura, construccion, decoracion, contacto, whatsapp, instagram"
+        ° Las description un breve resumen esta page "Encontranos en nuestras oficinas en Villa Ballester de lunes a viernes de 10 a 18hs. Contactanos para mas informacion"
+
+    Nosotros
+        ° Los keywords por las palabras claves "arquitectura, construccion, interiorismo, quienes somos, que hacemos"
+        ° Las description un breve resumen de esta page "Nos centramos en la busqueda de un producto con el cual cada cliente se sienta identificado. Aportamos soluciones innovadora, explorando cada material y sus capacidades, creando una variedad de alternativas diferentes a situaciones cotidianas."
+
+    Servicios
+        ° Los keywords por las palabras claves "arquitectura, decoracion, servicios, que ofrecemos, interiorismo "
+        ° Las description un breve resumen de esta page "Conoce nuestros paquetes estandar de arquitectura y/o interiorismo. Ademas, ofrecemos un servicio personalizado segun cada necesidad. "
+
+    Trabajos
+        ° Los keywords por las palabras claves "arquitectura, construccion, interiorismo, trabajos, obras"
+        ° Las description un breve resumen de esta page "Conoce nuestros trabajos e inspirate para remodelar o construir tu nuevo hogar"

@@ -4,6 +4,18 @@
   margin: 0px;
   padding: 0px; }
 
+.nav__button, .nav__button--active {
+  list-style: none;
+  display: block;
+  padding: 10px;
+  height: 20px;
+  text-align: center;
+  background-color: #fefae0;
+  border: double 4px #d4a373;
+  border-radius: 15px;
+  margin: 1rem;
+  box-shadow: 2px 2px 2px 2px #bc6b2571; }
+
 /* --- Index--- */
 .grilla {
   display: grid;
@@ -38,30 +50,23 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .nav img {
+  .nav__logo {
     border-radius: 30%;
     border: solid 2px #bc6c25;
     margin: 0.2rem auto;
     width: 12rem;
     height: 12rem; }
-  .nav ul {
+  .nav__lista {
     margin-top: 1rem;
     width: 100%; }
-  .nav li {
-    list-style: none;
-    display: block;
-    padding: 10px;
-    height: 20px;
-    text-align: center;
-    background-color: #fefae0;
-    border: double 4px #d4a373;
-    border-radius: 15px;
-    margin: 1rem;
-    box-shadow: 2px 2px 2px 2px #bc6b2571; }
-    .nav li:hover {
-      background-color: #fefae036;
-      transform: scale(1.05);
-      transition: 0.2s; }
+  .nav__button:hover {
+    background-color: #fefae036;
+    transform: scale(1.05);
+    transition: 0.2s; }
+  .nav__button--active {
+    background-color: #d4a373;
+    border: double 4px #fefae0;
+    box-shadow: none; }
   .nav a {
     display: block;
     color: #283618;
