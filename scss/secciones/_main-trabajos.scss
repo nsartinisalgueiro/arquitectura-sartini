@@ -1,0 +1,12 @@
+.fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% auto;
+
+    img {
+        width: 23vw;
+        height: 23vh;
+        margin: 5px;
+    }
+}

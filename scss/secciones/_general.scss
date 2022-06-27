@@ -1,0 +1,15 @@
+/* --- Index--- */
+.grilla {  display: grid;
+  grid-template-columns: .5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1.5fr .5fr;
+  grid-template-areas:
+    "nav header header header"
+    "nav primeraSeccion primeraSeccion primeraSeccion"
+    "nav primeraSeccion primeraSeccion primeraSeccion"
+    "nav primeraSeccion primeraSeccion primeraSeccion"
+    "footer primeraSeccion primeraSeccion primeraSeccion";
+    width: 100%;
+    height: 100%;
+    background: $grandienteFondo;
+    font-family: $Poppins;
+}

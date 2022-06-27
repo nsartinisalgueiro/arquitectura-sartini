@@ -1,0 +1,46 @@
+.primeraSeccion {
+    section {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .servicios {
+        width: 80%;
+        height: 50%;
+
+        &__titulo {
+            box-shadow: 2px 4px #2836188d;
+            background-color: $fondoTexto;
+        }
+
+        &__descripcion {
+            display: flex;
+            flex-direction: column;
+            list-style: inside;
+            margin: 5px auto;
+            padding: 20px;
+            max-width: 75%;
+            height: 80%;
+            background-color: $fondoTexto;
+            color: $colorTipoMain;
+            border-radius: 10px;
+            box-shadow: 2px 4px $sombraBox;
+
+            &__subtitulo {
+                font-size: 1.5rem;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+            }
+
+            &__item {
+                padding: 1rem;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+

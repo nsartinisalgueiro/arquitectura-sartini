@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+//Variables SIEMPRE arriba de todo
+@import "./variables/colores";
+@import "./variables/tamanios";
+@import "./variables/tipografia";
+
+@import "./secciones/general";
+@import "./secciones/header";
+@import "./secciones/nav";
+@import "./secciones/main-index-nosotros";
+@import "./secciones/main-contacto";
+@import "./secciones/main-servicios";
+@import "./secciones/main-trabajos";
+@import "./secciones/footer";
+@import "./secciones/animaciones";
+@import "./secciones/media-queries";

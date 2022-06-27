@@ -1,0 +1,192 @@
+@media (max-width:768px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.2fr 3.4fr 0.2fr;
+        grid-template-areas:
+            "header"
+            "nav"
+            "primeraSeccion"
+            "footer";
+    }
+
+    /* INDEX */
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .img {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            width: 95%;
+        }
+
+        li {
+            display: inline-block;
+            padding: 1%;
+            height: 5%;
+            width: 19%;
+            text-align: center;
+            margin: 2px auto;
+        }
+
+        a {
+            font-size: 0.8rem;
+        }
+    }
+
+    /* Titulo principal */
+    .header {
+        width: 100vw;
+        height: 70%;
+        display: flex;
+        font-size: 0.9rem;
+    }
+
+    /* contenido principal */
+    .primeraSeccion {
+        height: 80vh;
+        width: 100vw;
+        margin-top: 1rem;
+
+        h2 {
+            font-size: 1.7rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+            padding: 5%;
+        }
+
+        a {
+            text-align: center;
+            align-items: center;
+            padding: 1rem;
+            width: 60vw;
+            height: 2vh;
+            font-size: 1rem;
+
+            &:hover {
+                background-color: #283618;
+                color: #fefae0;
+                border: solid 2px #fefae0;
+                font-size: 20px;
+                transition: 1s;
+            }
+        }
+
+        /* pie de pagina  */
+        .footer {
+            height: 11vh;
+            width: 98vw;
+            margin: 8px auto;
+            margin-bottom: 8px;
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+    /* FULL RESPONSIVE - Celular */
+    @media (max-width: 480px) {
+        .grilla {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.3fr 0.2fr 3.4fr 0.2fr;
+            grid-template-areas:
+                "header"
+                "nav"
+                "primeraSeccion"
+                "footer"
+            ;
+            width: 100vw;
+            height: 100vh;
+            background-color: #faedcd;
+        }
+
+        /* INDEX */
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+
+            ul {
+                display: flex;
+                width: 90%;
+            }
+
+            li {
+                display: inline-block;
+                padding: 1%;
+                height: 5%;
+                width: 19%;
+                text-align: center;
+                margin: 2px auto;
+            }
+
+            a {
+                font-size: 0.6rem;
+            }
+        }
+
+        /* Titulo principal */
+        .header {
+            width: 100vw;
+            height: 70%;
+            display: flex;
+            font-size: .7rem;
+        }
+
+        /* contenido principal */
+        .primeraSeccion {
+            height: 80vh;
+            width: 100vw;
+            margin-top: 1rem;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+                padding: 7%;
+            }
+
+            a {
+                text-align: center;
+                padding: 1rem;
+                width: 60vw;
+                height: 2vh;
+                font-size: 0.8rem;
+
+                &:hover {
+                    background-color: #283618;
+                    color: #fefae0;
+                    border: solid 2px #fefae0;
+                    font-size: 15px;
+                    transition: 1s;
+                }
+            }
+
+            /* pie de pagina  */
+            .footer {
+                height: 11vh;
+                width: 98vw;
+                margin: 8px auto;
+                margin-bottom: 8px;
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+
+        }
+    }
+}

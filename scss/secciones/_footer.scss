@@ -1,0 +1,41 @@
+.footer {
+    grid-area: footer;
+    height: 75%;
+    background-color: $colorFondoFooter;
+    border: double 4px #d4a373;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0.5rem auto;
+    box-shadow: 2px 2px 2px 2px $sombraBoton;
+
+    p {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        color: $colorTipoFooter;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 6px auto;
+        max-width: 80%;
+        height: 5%;
+    }
+
+    li {
+        display: inline;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    img {
+        width: 2rem;
+        max-width: 80%;
+        height: 2rem;
+        margin: 5px auto;
+    }
+
+}

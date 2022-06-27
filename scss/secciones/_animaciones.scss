@@ -1,0 +1,44 @@
+@keyframes imagenesFondo {
+    0% {
+        background-image: url(../img/baño-espejo.jpeg);
+    }
+
+    25% {
+        background-image: url(../img/baño-espejo.jpeg);
+    }
+
+    50% {
+        background-image: url(../img/cocina-angulo.jpeg);
+    }
+
+    75% {
+        background-image: url(../img/cocina-parrila.jpeg);
+    }
+
+    100% {
+        background-image: url(../img/living-vajilla.jpeg);
+    }
+}
+
+@keyframes fondoTitulo {
+    0% {
+        background-image: url(../img/fondo-madera-rustica2.jpg);
+
+    }
+
+    33% {
+        background-image: url(../img/fondo-madera-rustica.jpg);
+
+    }
+
+    66% {
+        background-image: url(../img/fondo-madera-rustica3.jpg);
+
+    }
+
+    100% {
+        background-image: url(../img/fondo-madera-rustica.jpg);
+
+    }
+
+}
