@@ -6,7 +6,6 @@
 
 .nav__button, .nav__button--active {
   list-style: none;
-  display: block;
   padding: 10px;
   height: 20px;
   text-align: center;
@@ -19,8 +18,9 @@
 /* --- Index--- */
 .grilla {
   display: grid;
-  grid-template-columns: .5fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1.5fr .5fr;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1.5fr 0.5fr;
   grid-template-areas: "nav header header header" "nav primeraSeccion primeraSeccion primeraSeccion" "nav primeraSeccion primeraSeccion primeraSeccion" "nav primeraSeccion primeraSeccion primeraSeccion" "footer primeraSeccion primeraSeccion primeraSeccion";
   width: 100%;
   height: 100%;
@@ -59,14 +59,16 @@
   .nav__lista {
     margin-top: 1rem;
     width: 100%; }
-  .nav__button:hover {
-    background-color: #fefae036;
-    transform: scale(1.05);
-    transition: 0.2s; }
-  .nav__button--active {
-    background-color: #d4a373;
-    border: double 4px #fefae0;
-    box-shadow: none; }
+  .nav__button {
+    display: block; }
+    .nav__button:hover {
+      background-color: #fefae036;
+      transform: scale(1.05);
+      transition: 0.2s; }
+    .nav__button--active {
+      background-color: #d4a373;
+      border: double 4px #fefae0;
+      box-shadow: none; }
   .nav a {
     display: block;
     color: #283618;
@@ -248,18 +250,19 @@
     display: flex;
     flex-direction: row;
     justify-content: center; }
-    .nav .img {
+    .nav__logo {
       display: none; }
-    .nav ul {
+    .nav__lista {
       display: flex;
       width: 95%; }
-    .nav li {
+    .nav__button {
       display: inline-block;
       padding: 1%;
       height: 5%;
       width: 19%;
       text-align: center;
-      margin: 2px auto; }
+      margin: 20px auto;
+      margin-right: 2vw; }
     .nav a {
       font-size: 0.8rem; }
   /* Titulo principal */

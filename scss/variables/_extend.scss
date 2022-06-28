@@ -1,14 +1,18 @@
+//EXTEND
 %estiloBotonNav{
-                list-style: none;
-            display: block;
+            list-style: none;
             padding: 10px;
             height: 20px;
             text-align: center;
-            background-color: $fondoBotonNav;
-            border: double 4px $bordeNav;
+            background-color: map-get($coloresNav, botonNav);
+            border: double 4px map-get($coloresNav, bordeNav);
             border-radius: 15px;
             margin: 1rem;
             box-shadow: 2px 2px 2px 2px $sombraBoton;
+}
 
-
+//MIXIN
+@mixin displayColumn ($display, $columns){
+    display: $display;
+    grid-template-columns: $columns;
 }

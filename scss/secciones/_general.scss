@@ -1,7 +1,7 @@
 /* --- Index--- */
 .grilla {  display: grid;
-  grid-template-columns: .5fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1.5fr .5fr;
+ @include displayColumn (grid, $separacionGridCol);
+  grid-template-rows: $separacionGridRow;
   grid-template-areas:
     "nav header header header"
     "nav primeraSeccion primeraSeccion primeraSeccion"
