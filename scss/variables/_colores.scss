@@ -2,10 +2,10 @@
 
 //FONDOS PRINCIPALES
     //MAIN
-    $grandienteFondo: linear-gradient(180deg, rgba(250, 237, 205, 1) 50%, rgba(204, 213, 174, 1) 100%);
+    $grandienteFondo: linear-gradient(0deg, #1d3658 0%, #b6353b 100%);
 
     //FOOTER
-    $colorFondoFooter: #fefae0;
+    $colorFondoFooter: #023e8a;
 
 //BOTONES
     //FONDO BOTONES
@@ -16,21 +16,21 @@
     $sombraBoton: #bc6b2571;
 
     //BORDES BOTONES
-    $bordeBotonMain: #283618;
-    $bordeBotonMainHover: #fefae0;
+    $bordeBotonMain: white;
+    $bordeBotonMainHover: white;
 
 //COLOR TIPOGRAFIA
 $colorTipoMain: #283618;
-$colorTipoFooter: #283618;
+$colorTipoFooter: white;
 
 $sombraBox: #2836188d;
 $fondoTexto:#faedcda7;
 
 //MAPS
 $coloresNav:(
-    botonNav:#fefae0,
+    botonNav:#023e8a,
     hoverNav:#fefae036,
-    tipoNav:#283618,
-    bordeNav:#d4a373,
-    activeNav:#d4a373,
+    tipoNav: white,
+    bordeNav:white,
+    activeNav:#0077b6,
 )
