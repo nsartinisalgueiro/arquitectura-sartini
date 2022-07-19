@@ -4,11 +4,11 @@
     animation-duration: 15s;
     animation-iteration-count: infinite;
     background-size: cover;
-    border-radius: 1rem;
+    padding-bottom: 80vh;
     margin-top: .5rem;
 
     h2 {
-        margin-top: 2rem;
+        margin-top: 4rem;
         text-align: center;
         font-size: 2rem;
         color: $colorTipoMain;
@@ -36,7 +36,7 @@
         font-size: 1.5rem;
         height: auto;
         max-width: 85%;
-        margin: 15px auto;
+        margin: 30px auto;
         text-align: center;
         background-color: #faedcd82;
         color: $colorTipoMain;

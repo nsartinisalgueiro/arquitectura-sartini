@@ -20,7 +20,7 @@
   display: grid;
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1.5fr 0.5fr;
+  grid-template-rows: 0.2fr 1fr 1fr 1.5fr 0.5fr;
   grid-template-areas: "nav header header header" "nav primeraSeccion primeraSeccion primeraSeccion" "nav primeraSeccion primeraSeccion primeraSeccion" "nav primeraSeccion primeraSeccion primeraSeccion" "footer primeraSeccion primeraSeccion primeraSeccion";
   width: 100%;
   height: 100%;
@@ -29,9 +29,6 @@
 
 .header {
   grid-area: header;
-  background-size: cover;
-  border-radius: 1rem;
-  height: 16.5vh;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1.5rem;
@@ -40,8 +37,9 @@
   justify-content: center;
   align-items: center;
   color: #faedcd;
-  text-shadow: 5px 5px rgba(0, 0, 0, 0.592);
-  background-image: url(../img/fondo-madera-rustica.jpg); }
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.592); }
+  .header .separador {
+    box-shadow: 1px 2px 6px; }
 
 .nav {
   grid-area: nav;
@@ -80,10 +78,10 @@
   animation-duration: 15s;
   animation-iteration-count: infinite;
   background-size: cover;
-  border-radius: 1rem;
+  padding-bottom: 80vh;
   margin-top: .5rem; }
   .primeraSeccion h2 {
-    margin-top: 2rem;
+    margin-top: 4rem;
     text-align: center;
     font-size: 2rem;
     color: #283618; }
@@ -107,7 +105,7 @@
     font-size: 1.5rem;
     height: auto;
     max-width: 85%;
-    margin: 15px auto;
+    margin: 30px auto;
     text-align: center;
     background-color: #faedcd82;
     color: #283618;
@@ -177,15 +175,32 @@
       font-size: 1.5rem;
       font-weight: bold; }
 
-.fotos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2% auto; }
-  .fotos img {
-    width: 23vw;
-    height: 23vh;
-    margin: 5px; }
+.seccionTrabajos {
+  grid-area: primeraSeccion;
+  background-image: url(../img/cocina-angulo.jpeg);
+  background-size: cover;
+  margin-top: .5rem;
+  padding-bottom: 5rem; }
+  .seccionTrabajos h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #283618; }
+  .seccionTrabajos .fotos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2% auto;
+    margin-top: 5%; }
+    .seccionTrabajos .fotos img {
+      max-width: 250px;
+      min-width: 50px;
+      margin: 4% auto;
+      padding-bottom: 4rem; }
+      .seccionTrabajos .fotos img:hover {
+        transform: scale(1.3);
+        transition: 4s; }
 
 .footer {
   grid-area: footer;
@@ -233,7 +248,7 @@
   .grilla {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 0.2fr 3.4fr 0.2fr;
+    grid-template-rows: 0.2fr 0.2fr 3.4fr 0.2fr;
     grid-template-areas: "header" "nav" "primeraSeccion" "footer"; }
   /* INDEX */
   .nav {
@@ -264,9 +279,9 @@
   /* contenido principal */
   .primeraSeccion {
     height: 80vh;
-    width: 100vw;
+    width: 100%;
     margin-top: 1rem;
-    padding-bottom: 4rem;
+    padding-bottom: 90%;
     /* pie de pagina  */ }
     .primeraSeccion h2 {
       font-size: 1.7rem; }
@@ -286,6 +301,15 @@
         border: solid 2px #fefae0;
         font-size: 15px;
         transition: 1s; }
+    .primeraSeccion .seccionTrabajos {
+      height: 100%;
+      width: 100%;
+      margin-top: 1rem; }
+      .primeraSeccion .seccionTrabajos .fotos img {
+        margin: 0px auto; }
+        .primeraSeccion .seccionTrabajos .fotos img:hover {
+          transform: scale(1.1);
+          transition: 4s; }
     .primeraSeccion .footer {
       height: 11vh;
       width: 98vw;
@@ -302,7 +326,7 @@
     grid-template-rows: 0.3fr 0.2fr 3.4fr 0.2fr;
     grid-template-areas: "header" "nav" "primeraSeccion" "footer";
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #faedcd; }
   /* INDEX */
   .nav {
@@ -332,13 +356,15 @@
     height: 80vh;
     width: 100vw;
     margin-top: 1rem;
-    padding-bottom: 8rem;
+    padding-bottom: 90%;
     /* pie de pagina  */ }
     .primeraSeccion h2 {
       font-size: 1.5rem; }
     .primeraSeccion h3 {
       font-size: 1.1rem;
       padding: 7%; }
+    .primeraSeccion p {
+      font-size: 1.2rem; }
     .primeraSeccion a {
       text-align: center;
       padding: 1rem;
@@ -351,6 +377,12 @@
         border: solid 2px #fefae0;
         font-size: 15px;
         transition: 1s; }
+    .primeraSeccion section {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .primeraSeccion .seccionTrabajos {
+      padding-bottom: 80%; }
     .primeraSeccion .footer {
       height: 11vh;
       width: 98vw;
